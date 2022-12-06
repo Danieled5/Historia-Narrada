@@ -27,6 +27,12 @@ int main()
 		cout << "Empiezas en tu casa decides Jugar a tu videojuego Favorito?\n";
 		cout << "1-Si / 2-NO\n";
 		cin >> des1;
+		if (des1 == 2)
+		{
+			cout << "Olvidas esas cosas de jugar videojuegos y Continuas con tu vida aburrida\n";
+			cout << "NO ES UN FINAL NI Bueno NI Malo\n";
+			cout << "MEHHH\n";
+		}
 		if (des1 == 1)
 		{
 			cout << "Te acercas a la television con la intencion de encenderla cuando de repente\n";
@@ -37,12 +43,7 @@ int main()
 			cout << "1- Comertelo 2-Patearlo\n";
 			cin >> des2;
 
-			if (des1 == 2)
-			{
-				cout << "Olvidas esas cosas de jugar videojuegos y Continuas con tu vida aburrida\n";
-				cout << "NO ES UN FINAL NI Bueno NI Malo\n";
-				cout << "MEHHH\n";
-			}
+			
 
 			if (des2 == 1)
 			{
